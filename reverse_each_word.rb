@@ -1,3 +1,4 @@
 def reverse_each_word(string)
-  string.each {|word| puts word.reverse}
+  string.to_a = array_string
+  array_string.each {|word| puts word.reverse}
 end
